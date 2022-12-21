@@ -1,16 +1,7 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package paquete02;
 
 import java.util.Scanner;
 
-/**
- *
- * @author reroes
- */
 public class Ejemplo01 {
 
     public static void main(String[] args) {
@@ -30,7 +21,7 @@ public class Ejemplo01 {
         System.out.println("Ingreso de datos al arreglo");
         for (int i = 0; i < arreglo1.length; i++) {
             for (int j = 0; j < arreglo1[i].length; j++) {
-                System.out.printf("Ingrese valor para la posición [%d][%d]\t:",
+                System.out.printf("Ingrese valor para la posición [%d][%d]: ",
                         i, j);
                 valorIngresado = entrada.nextInt();
                 arreglo1[i][j] = valorIngresado;
